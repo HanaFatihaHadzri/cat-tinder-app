@@ -2,7 +2,7 @@ const catImage = document.getElementById("catImage");
 const nextBtn = document.getElementById("nextBtn");
 
 function loadCat(){
-    const url = "https://cataas.com/cat";
+    const url = "https://cataas.com/cat?timestamp=" + new Date().getTime();
     catImage.src = url;
 }
 
